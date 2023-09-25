@@ -11,7 +11,7 @@ const Banner = () => {
           placeholder="Search here...."
         />
         <input
-          className="bg-brand text-white p-4"
+          className="bg-brand-red text-white p-4"
           type="submit"
           value="Search"
         />

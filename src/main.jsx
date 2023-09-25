@@ -5,6 +5,7 @@ import "./index.css";
 import Home from "./components/Home";
 import DonationCards from "./components/DonationCards";
 import DonationCardDetails from "./components/DonationCardDetails";
+import YourDonations from "./components/YourDonations";
 
 const router = createBrowserRouter([
   {
@@ -17,8 +18,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/donation",
-        element: <DonationCardDetails />,
+        element: <YourDonations />,
       },
+      // {
+      //   path: "/donation",
+      //   element: <DonationCardDetails />,
+      // },
     ],
   },
 ]);
