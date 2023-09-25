@@ -1,9 +1,19 @@
-import React from "react";
-
 const Banner = () => {
   return (
-    <section>
-      <h1>I Grow By Helping People In Need</h1>
+    <section className="text-center">
+      <h1 className="font-bold text-4xl">I Grow By Helping People In Need</h1>
+      <form>
+        <input
+          className="border border-gray-500 p-4"
+          type="text"
+          placeholder="Search here...."
+        />
+        <input
+          className="bg-brand text-white p-4"
+          type="submit"
+          value="Search"
+        />
+      </form>
     </section>
   );
 };
