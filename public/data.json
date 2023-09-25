@@ -1,0 +1,122 @@
+[
+  {
+    "picture": "item1.jpg",
+    "title": "Better Food Access",
+    "category": "food",
+    "text_button_bg": "#F87147",
+    "category_bg": "#FDD2C4",
+    "card_bg": "#FEEAE3",
+    "description": "Make a difference by donating food to our Food donation collection.",
+    "price": 300
+  },
+  {
+    "picture": "item2.jpg",
+    "title": "Clean Water for Children",
+    "category": "health",
+    "text_button_bg": "#0052FF",
+    "category_bg": "#AEC8FF",
+    "card_bg": "#D9E5FF",
+    "description": "Support health initiatives and provide essential care with our Health donation collection.",
+    "price": 500
+  },
+  {
+    "picture": "item3.jpg",
+    "title": "Empower Education",
+    "category": "education",
+    "text_button_bg": "#FF444A",
+    "category_bg": "#FFC3C5",
+    "card_bg": "#FFE3E4",
+    "description": "Empower students and educators through our Education donation collection.",
+    "price": 900
+  },
+  {
+    "picture": "item4.jpg",
+    "title": "Fight Hunger",
+    "category": "food",
+    "text_button_bg": "#F87147",
+    "category_bg": "#FDD2C4",
+    "card_bg": "#FEEAE3",
+    "description": "Help those in need by contributing to our Food donation collection.",
+    "price": 200
+  },
+  {
+    "picture": "item5.jpg",
+    "title": "Health & Wellness",
+    "category": "health",
+    "text_button_bg": "#0052FF",
+    "category_bg": "#AEC8FF",
+    "card_bg": "#D9E5FF",
+    "description": "Support health causes and provide hope through our Health donation collection.",
+    "price": 400
+  },
+  {
+    "picture": "item6.jpg",
+    "title": "Clothing Drive",
+    "category": "clothing",
+    "text_button_bg": "##79C23F",
+    "category_bg": "##D4ECC1",
+    "card_bg": "##EBF6E2",
+    "description": "Give the gift of warmth and dignity with our Clothing donation collection.",
+    "price": 700
+  },
+  {
+    "picture": "item7.jpg",
+    "title": "Invest in Education",
+    "category": "education",
+    "text_button_bg": "#FF444A",
+    "category_bg": "#FFC3C5",
+    "card_bg": "#FFE3E4",
+    "description": "Invest in the future by supporting education through our Education donation collection.",
+    "price": 300
+  },
+  {
+    "picture": "item8.jpg",
+    "title": "Fight Hunger - Support",
+    "category": "food",
+    "text_button_bg": "#F87147",
+    "category_bg": "#FDD2C4",
+    "card_bg": "#FEEAE3",
+    "description": "Make a difference in someone's life with a donation to our Food collection.",
+    "price": 2000
+  },
+  {
+    "picture": "item9.jpg",
+    "title": "Support Health Initiatives",
+    "category": "health",
+    "text_button_bg": "#0052FF",
+    "category_bg": "#AEC8FF",
+    "card_bg": "#D9E5FF",
+    "description": "Support health causes and provide hope through our Health donation collection.",
+    "price": 100
+  },
+  {
+    "picture": "item10.jpg",
+    "title": "Warmth & Dignity",
+    "category": "clothing",
+    "text_button_bg": "##79C23F",
+    "category_bg": "##D4ECC1",
+    "card_bg": "##EBF6E2",
+    "description": "Give the gift of warmth and dignity with our Clothing donation collection.",
+    "price": 1500
+  },
+  {
+    "picture": "item11.jpg",
+    "title": "Education Support",
+    "category": "education",
+    "text_button_bg": "#FF444A",
+    "category_bg": "#FFC3C5",
+    "card_bg": "#FFE3E4",
+    "description": "Invest in the future by supporting education through our Education donation collection.",
+    "price": 800
+  },
+  {
+    "picture": "item12.jpg",
+    "title": "Make a Difference - Donate",
+    "category": "food",
+    "text_button_bg": "#F87147",
+    "category_bg": "#FDD2C4",
+    "card_bg": "#FEEAE3",
+    "description": "Make a difference in someone's life with a donation to our Food collection.",
+    "price": 600
+  }
+]
