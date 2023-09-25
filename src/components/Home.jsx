@@ -10,7 +10,9 @@ const Home = () => {
         {/* <div className="bg-[url('./assets/Clothing.png')] bg-no-repeat bg-cover bg-opacity-5"> */}
         <Header />
         <Banner />
-        <Outlet />
+        <div className="mt-20 mb-32">
+          <Outlet />
+        </div>
       </div>
     </div>
   );

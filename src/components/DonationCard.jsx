@@ -1,16 +1,7 @@
 import PropTypes from "prop-types";
 
 const DonationCard = ({ item }) => {
-  const {
-    img,
-    title,
-    category,
-    text_button_bg,
-    category_bg,
-    card_bg,
-    description,
-    price,
-  } = item;
+  const { img, title, category, text_button_bg, category_bg, card_bg } = item;
 
   //   const h2Class = `font-semibold text-xl text-[${text_button_bg}]`;
   //   console.log(h2Class);
