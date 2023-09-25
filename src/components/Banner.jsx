@@ -1,7 +1,9 @@
 const Banner = () => {
   return (
     <section className="text-center">
-      <h1 className="font-bold text-4xl">I Grow By Helping People In Need</h1>
+      <h1 className="font-bold text-4xl mt-32 mb-10">
+        I Grow By Helping People In Need
+      </h1>
       <form>
         <input
           className="border border-gray-500 p-4"
