@@ -1,6 +1,6 @@
 [
   {
-    "picture": "item1.jpg",
+    "picture": "https://i.ibb.co/7NmjhHB/food-1.jpg",
     "title": "Better Food Access",
     "category": "food",
     "text_button_bg": "#F87147",
@@ -10,17 +10,17 @@
     "price": 300
   },
   {
-    "picture": "item2.jpg",
+    "picture": "https://i.ibb.co/6s3d6dM/water-1.jpg",
     "title": "Clean Water for Children",
-    "category": "health",
-    "text_button_bg": "#0052FF",
-    "category_bg": "#AEC8FF",
-    "card_bg": "#D9E5FF",
+    "category": "food",
+    "text_button_bg": "#F87147",
+    "category_bg": "#FDD2C4",
+    "card_bg": "#FEEAE3",
     "description": "Support health initiatives and provide essential care with our Health donation collection.",
     "price": 500
   },
   {
-    "picture": "item3.jpg",
+    "picture": "https://i.ibb.co/1RG1krd/education-1.jpg",
     "title": "Empower Education",
     "category": "education",
     "text_button_bg": "#FF444A",
@@ -30,7 +30,7 @@
     "price": 900
   },
   {
-    "picture": "item4.jpg",
+    "picture": "https://i.ibb.co/hmmZpq0/food-2.jpg",
     "title": "Fight Hunger",
     "category": "food",
     "text_button_bg": "#F87147",
@@ -40,7 +40,7 @@
     "price": 200
   },
   {
-    "picture": "item5.jpg",
+    "picture": "https://i.ibb.co/QMb2DCZ/health-2.jpg",
     "title": "Health & Wellness",
     "category": "health",
     "text_button_bg": "#0052FF",
@@ -50,7 +50,7 @@
     "price": 400
   },
   {
-    "picture": "item6.jpg",
+    "picture": "https://i.ibb.co/Q8JR3VC/clothes-2.jpg",
     "title": "Clothing Drive",
     "category": "clothing",
     "text_button_bg": "##79C23F",
@@ -60,7 +60,7 @@
     "price": 700
   },
   {
-    "picture": "item7.jpg",
+    "picture": "https://i.ibb.co/L5zhk8P/education-2.jpg",
     "title": "Invest in Education",
     "category": "education",
     "text_button_bg": "#FF444A",
@@ -70,7 +70,7 @@
     "price": 300
   },
   {
-    "picture": "item8.jpg",
+    "picture": "https://i.ibb.co/T4zsLzh/water-4.jpg",
     "title": "Fight Hunger - Support",
     "category": "food",
     "text_button_bg": "#F87147",
@@ -80,7 +80,7 @@
     "price": 2000
   },
   {
-    "picture": "item9.jpg",
+    "picture": "https://i.ibb.co/dK24PFy/health-1.jpg",
     "title": "Support Health Initiatives",
     "category": "health",
     "text_button_bg": "#0052FF",
@@ -90,7 +90,7 @@
     "price": 100
   },
   {
-    "picture": "item10.jpg",
+    "picture": "https://i.ibb.co/Q8JR3VC/clothes-2.jpg",
     "title": "Warmth & Dignity",
     "category": "clothing",
     "text_button_bg": "##79C23F",
@@ -100,7 +100,7 @@
     "price": 1500
   },
   {
-    "picture": "item11.jpg",
+    "picture": "https://i.ibb.co/ZxdZtnR/education-3.jpg",
     "title": "Education Support",
     "category": "education",
     "text_button_bg": "#FF444A",
@@ -110,7 +110,7 @@
     "price": 800
   },
   {
-    "picture": "item12.jpg",
+    "picture": "https://i.ibb.co/Q62yqzN/water-3.jpg",
     "title": "Make a Difference - Donate",
     "category": "food",
     "text_button_bg": "#F87147",
