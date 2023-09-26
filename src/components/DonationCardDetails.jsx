@@ -11,16 +11,7 @@ const DonationCardDetails = () => {
     (donation) => donation.id === donationIdInt
   );
   console.log(currentDonation);
-  const {
-    img,
-    title,
-    description,
-    category,
-    text_button_bg,
-    category_bg,
-    card_bg,
-    price,
-  } = currentDonation;
+  const { img, title, description, text_button_bg, price } = currentDonation;
 
   const handleDonate = () => {
     setMyDonations(donationIdInt);

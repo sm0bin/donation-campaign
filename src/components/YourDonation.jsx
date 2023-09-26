@@ -15,7 +15,7 @@ const YourDonations = ({ item }) => {
       <div className="p-6">
         <span
           style={{ backgroundColor: category_bg, color: text_button_bg }}
-          className="px-2.5 py-1 rounded mb-2 inline-block text-sm font-medium"
+          className="px-2.5 py-1 rounded mb-2 inline-block text-sm font-medium capitalize"
         >
           {category}
         </span>
