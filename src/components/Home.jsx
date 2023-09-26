@@ -9,7 +9,7 @@ const Home = () => {
       <div className="">
         {/* <div className="bg-[url('./assets/Clothing.png')] bg-no-repeat bg-cover bg-opacity-5"> */}
         <Header />
-        <Banner />
+
         <div className="mt-20 mb-32">
           <Outlet />
         </div>

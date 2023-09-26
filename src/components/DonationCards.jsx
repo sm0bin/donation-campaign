@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import DonationCard from "./DonationCard";
+import Banner from "./Banner";
 
 const DonationCards = () => {
   const [donationData, setDonationData] = useState([]);
@@ -10,11 +11,14 @@ const DonationCards = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      {donationData.map((item) => (
-        <DonationCard key={item.id} item={item} />
-      ))}
-    </div>
+    <>
+      <Banner />
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {donationData.map((item) => (
+          <DonationCard key={item.id} item={item} />
+        ))}
+      </div>
+    </>
   );
 };
 
