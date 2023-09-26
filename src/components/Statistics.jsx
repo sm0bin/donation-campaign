@@ -1,28 +1,19 @@
 import { useEffect, useState, PureComponent } from "react";
 import { useLoaderData } from "react-router-dom";
-import { calculatePrice, getMyDonations } from "./utility/localStorage";
+import { getMyDonations } from "./utility/localStorage";
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
 
 const Statistics = () => {
   const allDonations = useLoaderData();
   const [myDonations, setMyDonations] = useState([]);
-
   useEffect(() => {
-    if (allDonations.length > 0) {
-      const myStoredDonations = getMyDonations();
-      const mySelectedDonations = allDonations.filter((donation) =>
-        myStoredDonations.includes(donation.id)
-      );
-      setMyDonations(mySelectedDonations);
-    }
-  }, [allDonations]);
-  const totalDonationsPrice = calculatePrice(allDonations);
-  const myDonationsPrice = calculatePrice(myDonations);
-  console.log(totalDonationsPrice, myDonationsPrice);
+    const myStoredDonations = getMyDonations();
+    setMyDonations(myStoredDonations);
+  }, []);
 
   const data = [
-    { name: "Your Donation", value: myDonationsPrice },
-    { name: "Total Donation", value: totalDonationsPrice - myDonationsPrice },
+    { name: "Your Donation", value: myDonations.length },
+    { name: "Total Donation", value: allDonations.length - myDonations.length },
   ];
 
   const COLORS = ["#00C49F", "#FF444A"];

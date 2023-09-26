@@ -21,7 +21,7 @@ const DonationCardDetails = () => {
   return (
     <div>
       <Toaster />
-      <div className="relative rounded-lg overflow-hidden">
+      <div className="relative rounded-lg overflow-hidden mt-20">
         <img className="w-full" src={img} alt="" />
         <div className="absolute bottom-0 p-9 bg-black/50 inset-x-0">
           <button
