@@ -20,7 +20,7 @@ const YourDonations = () => {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-20">
         {myDonations.slice(0, dataLength).map((item) => (
           <YourDonation key={item.id} item={item} />
         ))}

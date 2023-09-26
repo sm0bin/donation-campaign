@@ -9,9 +9,9 @@ const YourDonations = ({ item }) => {
       style={{
         background: card_bg,
       }}
-      className="rounded-lg overflow-hidden flex"
+      className="rounded-lg overflow-hidden md:flex"
     >
-      <img src={img} className=" w-1/3 object-cover" alt="" />
+      <img src={img} className="w-full md:w-1/3 object-cover" alt="" />
       <div className="p-6">
         <span
           style={{ backgroundColor: category_bg, color: text_button_bg }}

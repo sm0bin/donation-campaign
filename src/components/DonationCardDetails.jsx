@@ -6,11 +6,9 @@ const DonationCardDetails = () => {
   const allDonations = useLoaderData();
   const { donationId } = useParams();
   const donationIdInt = parseInt(donationId);
-  console.log(allDonations, donationId, useParams(), typeof donationId);
   const currentDonation = allDonations.find(
     (donation) => donation.id === donationIdInt
   );
-  console.log(currentDonation);
   const { img, title, description, text_button_bg, price } = currentDonation;
 
   const handleDonate = () => {

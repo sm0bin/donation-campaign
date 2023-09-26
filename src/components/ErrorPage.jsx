@@ -6,7 +6,7 @@ export default function ErrorPage() {
   console.error(error);
 
   return (
-    <div id="error-page" className=" text-center my-20">
+    <div id="error-page" className=" text-center my-20 mx-4">
       <h1 className="font-bold text-brand-dark text-5xl text-center">Oops!</h1>
       <img className="w-1/3 mx-auto my-8" src={errorImg} alt="" />
       <p className="font-bold text-brand-dark text-3xl text-center mb-4">

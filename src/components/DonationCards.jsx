@@ -43,7 +43,7 @@ const DonationCards = () => {
           </h1>
           <form onSubmit={handleSubmit}>
             <input
-              className="ring-1 ring-inset focus:ring-2 focus:ring-brand-red outline-none ring-gray-300 p-4 rounded-l-lg w-1/5"
+              className="ring-1 ring-inset focus:ring-2 focus:ring-brand-red outline-none ring-gray-300 p-4 rounded-l-lg w-2/3 lg:w-1/3"
               type="text"
               name="search"
               placeholder="Search here...."

@@ -4,7 +4,7 @@ import Logo from "../assets/logo.svg";
 const Header = () => {
   return (
     <header>
-      <nav className="flex items-center justify-between pt-14">
+      <nav className="flex flex-col gap-8 md:flex-row items-center justify-between pt-14">
         <Link to="/">
           <img src={Logo} alt="" />
         </Link>
