@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/logo.svg";
 
 const Header = () => {
@@ -9,15 +9,15 @@ const Header = () => {
           <img src={Logo} alt="" />
         </Link>
 
-        <ul className="flex gap-12">
+        <ul className="flex gap-12 text-lg text-brand-dark">
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="/donation">Donation</Link>
+            <NavLink to="/donation">Donation</NavLink>
           </li>
           <li>
-            <Link to="/statistics">Statistics</Link>
+            <NavLink to="/statistics">Statistics</NavLink>
           </li>
         </ul>
       </nav>

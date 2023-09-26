@@ -10,11 +10,16 @@ const YourDonations = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-      {donationData.map((item) => (
-        <YourDonation key={item.id} item={item} />
-      ))}
-    </div>
+    <>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {donationData.map((item) => (
+          <YourDonation key={item.id} item={item} />
+        ))}
+      </div>
+      <button className="px-6 py-4 bg-green-500 font-semibold text-white rounded-lg mx-auto block mt-10 hover:bg-green-600">
+        See All
+      </button>
+    </>
   );
 };
 

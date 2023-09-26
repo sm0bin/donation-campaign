@@ -6,3 +6,10 @@
   * {
       font-family: 'Inter', sans-serif;
   }
+
+  ul a.active {
+      font-weight: 700;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      color: #FF444A;
+  }

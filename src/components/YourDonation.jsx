@@ -25,7 +25,7 @@ const YourDonations = ({ item }) => {
         </h2>
         <button
           style={{ background: text_button_bg }}
-          className="px-4 py-2 rounded text-white text-lg font-semibold mt-5"
+          className="px-4 py-2 rounded text-white text-lg font-semibold mt-5 hover:bg-black"
         >
           View Details
         </button>

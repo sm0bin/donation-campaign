@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import DonationCards from "./components/DonationCards";
 import DonationCardDetails from "./components/DonationCardDetails";
 import YourDonations from "./components/YourDonations";
+import Statistics from "./components/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -20,10 +21,10 @@ const router = createBrowserRouter([
         path: "/donation",
         element: <YourDonations />,
       },
-      // {
-      //   path: "/donation",
-      //   element: <DonationCardDetails />,
-      // },
+      {
+        path: "/statistics",
+        element: <Statistics />,
+      },
     ],
   },
 ]);
