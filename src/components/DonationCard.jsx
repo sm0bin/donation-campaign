@@ -6,7 +6,7 @@ const DonationCard = ({ item }) => {
     item;
 
   return (
-    <Link to={`./donation/${id}`}>
+    <Link to={`./${id}`}>
       <div
         style={{
           background: card_bg,
