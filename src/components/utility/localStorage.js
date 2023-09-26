@@ -15,5 +15,10 @@ const setMyDonations = (id) => {
     }
 }
 
+const calculatePrice = (DonationObject) => {
+    const sumOfPrice = DonationObject.reduce((accumulator, currentValue) => accumulator + currentValue.price, 0);
+    return sumOfPrice;
+}
 
-export { getMyDonations, setMyDonations };
+
+export { getMyDonations, setMyDonations, calculatePrice };
