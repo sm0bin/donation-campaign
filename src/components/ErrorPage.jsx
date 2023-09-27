@@ -1,9 +1,15 @@
-import { useRouteError } from "react-router-dom";
+import { useNavigate, useRouteError } from "react-router-dom";
 import errorImg from "../assets/404 2.svg";
 
 export default function ErrorPage() {
   const error = useRouteError();
+  const navigate = useNavigate();
+
   console.error(error);
+
+  const handleGoHome = () => {
+    navigate("/");
+  };
 
   return (
     <div id="error-page" className=" text-center my-20 mx-4">
@@ -15,6 +21,12 @@ export default function ErrorPage() {
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
+      <button
+        className="px-6 py-4 bg-green-500 font-semibold text-white rounded-lg mx-auto mt-10 hover:bg-green-600 block"
+        onClick={handleGoHome}
+      >
+        Go Home
+      </button>
     </div>
   );
 }
